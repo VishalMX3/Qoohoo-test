@@ -77,15 +77,15 @@ nav ul{
 	transition: all ease 0.2s;
 }
 nav ul li a{
-    font-family: calibri;
-	height:40px;
+    font-family: 'Nunito Sans';
+	height:50px;
 	line-height: 43px;
-	margin: 3px;
-	padding: 0px 22px;
+	margin: 1px;
+	padding: 0px 14px;
 	display: flex;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 400;
 	color: #ffffff;
     letter-spacing: 1px;
     border-radius: 3px;
@@ -150,6 +150,10 @@ nav .menu-btn,
     padding: 10px;
 
 }
+.circle img:hover{
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
 
 .header-content{
     display: flex;
@@ -169,6 +173,8 @@ nav .menu-btn,
     width: 84px;
     height: 84px;
 }
+
+
 .tick-text{
     color:#FFFFFF
 }
@@ -293,6 +299,10 @@ background: #FFD7B1;
 border-radius: 8px;
 }
 
+.c-button:hover{
+    background: rgb(255, 159, 159);
+}
+
 .c-content{
     display: flex;
 flex-direction: row;
@@ -414,9 +424,14 @@ gap: 16px;
 margin-right: 40px;
 width: 312px;
 height: 428px;
-
+cursor: pointer;
+transition: all 0.3s ease;
 background: #FFD7B1;
 border-radius: 8px;
+}
+
+.box-structure:hover{
+    background: rgb(255, 152, 55);
 }
 
 
@@ -524,6 +539,10 @@ background: #C1CFFF;
     margin: 0px;
     letter-spacing: 2px;
     color: #ffffff;
+}
+
+.box-structure:hover{
+    background: rgb(255, 152, 55);
 }
 .circle {
     display: flex;
