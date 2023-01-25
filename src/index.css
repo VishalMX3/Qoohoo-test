@@ -301,7 +301,7 @@ padding: 60px;
 gap: 64px;
 
 width: 1177px;
-height: 448px;
+/* height: 448px; */
 
 background: #FFD7B1;
 border-radius: 16px;
@@ -504,16 +504,188 @@ background: #C1CFFF;
         padding: 174px;
        
     }
+
+    .Bootcamp{
+    width: 100vw;
+    height: 40px;
+    margin-left: 0px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    /* line-height: 60px;  */
+ }
+
+ .name h1 {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0px;
+    letter-spacing: 2px;
+    color: #ffffff;
 }
+.circle {
+    display: flex;
+    flex-direction: row;
+    background-color: #161E3C;
+    padding-left: 30%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+#features h1 {
+    width: 300px;
+    height: 60px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #161E3C;
+}
+.box-structure {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 16px; */
+    gap: 16px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    width: 312px;
+    height: 428px;
+    background: #FFD7B1;
+    border-radius: 8px;
+}
+
+ .c-button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-bottom: 10px;
+padding: 16px 47px;
+width: 10%;
+/* padding: 42px; */
+height: 48px;
+
+background: #FFD7B1;
+border-radius: 8px;
+}
+.c-buttons{
+display: flex;
+flex-direction: row;
+width: 10%;
+height: 10%;
+}
+
+.c-buttons span{
+    /* width: 95px; */
+height: 36px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+}
+
+.name{
+	/* font-family: 'Montserrat';
+	background-color: #161E3C; */
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* left: 22%; */
+	/* padding-left: 150px; */
+    padding-top: 12px;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+}
+#footer{
+    display: flex;
+/* flex-direction: row; */
+justify-content: space-between;
+align-items: center;
+padding: 10px 10px;
+/* gap: 676px; */
+
+/* width: 1440px; */
+/* height: 92px; */
+
+background: #C1CFFF;
+}
+.name{
+    /* transform: translate(); */
+}
+.f-content span {
+    padding-left: 2px;
+}
+.nav h2 {
+    /* left: 20px; */
+    padding-left: 20px;
+    padding-right: 70px;
+    color: #ffffff;
+}
+#pic {
+    /* width: 460px; */
+    /* height: 326px
+px
+; */
+    margin-left: 5px;
+    max-width: 95%;
+}
+
+
+.c-content {
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 60px;
+    /* gap: 64px; */
+    width: 100vw;
+    /* height: 448px; */
+    background: #FFD7B1;
+    border-radius: 16px;
+}
+
+.c-img{
+    width: 100%;
+}
+
+.c-buttons{
+    width: 100%;
+}
+
+
+#live {
+    width: 100%;}
+    
+.cv-btn{
+        margin-left: 2% !important;
+        margin-top: 2px !important;
+    }
+
+}
+
+
+
 @media(max-width:1190px){
 	#main{
 		background-size: 1150px !important;
 		
 	}
 	.name{
-		left: 50%;
-		top: 50%;
-        transform: translate(-50%,-50%);
+		/* left: 50%;
+		top: 50%; */
+        /* transform: translate(-50%,-50%); */
         text-align: center;
 	}
 
@@ -547,7 +719,7 @@ background: #C1CFFF;
 	.name{
 		left: 50%;
 		top: 50%;
-		transform: translate(-50%,-50%);
+		/* transform: translate(-50%,-50%); */
 	}
 	.about-image{
         display:none;
@@ -581,7 +753,7 @@ background: #C1CFFF;
 }
 @media(max-width:600px){
 	.name{
-		width:60%;
+		/* width:60%; */
     }}
     .scroll{
         left: 42.5%;
@@ -601,14 +773,14 @@ background: #C1CFFF;
         }
         .menu{
             display:none;
-            position:absolute;
+            /* position:absolute;
             top:65px;
             left:0px;
             background-color:#FFFFFF;
             border-bottom:4px solid #1db096;
             width:100%;
             padding:0px;
-            margin:0px;
+            margin:0px; */
         }
         .menu li{
             width:100%;
